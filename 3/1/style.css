@@ -1,0 +1,248 @@
+iframe {
+    display:inline-block;
+    background-color: aliceblue;
+    width:450px;
+    height:800px;
+    border-width:2px;
+    border:1px solid black;
+    border-style:inset;
+}
+#tab_roz_godz {
+    border: 1px solid #000;
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 20px;
+    background-color: aqua;
+    padding: 20px;
+}
+.grid-item {
+    background-color: coral;
+    border: 3px solid black;
+    padding: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-container {
+    display: flex;
+    background-color: blue;
+}
+.flex-container div {
+    background-color: rgb(145, 255, 0);
+}
+#includedContent .timetable-header {
+    background-color: rgb(211, 236, 121);
+    
+}
+#includedContent.other-bus-lines{
+    background-color: hsl(320, 42%, 56%);
+    padding: 15px 10px;
+    text-decoration:none;
+    display: flex;
+}
+	/* poprawa drukowania */
+@media print {				
+  .other-bus-lines, .timetable-stops{
+    display: none !important;
+  }
+  .timetable {
+	  width: 100% !important;
+	  }
+}
+
+a {
+    color: brown;
+    font-size: 16px;
+}
+span#Nazwa linii[title] {
+    color: rgb(5, 73, 5);
+    font-size: 16px;
+}
+
+.timetable-header .pt {
+ color: #00508b;
+}
+.trasa {
+    font-size: 14px;
+    background-color: #00508b;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* pasek pod opisem rgb(206, 212, 212 ||hsl(204, 52%, 65%*/
+.other-bus-lines{
+    background-color: #00508b;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.other-bus-lines .index {
+    padding: 5px;
+}
+.other-bus-lines .index a {
+    color: white;
+    padding: 15px;
+    text-decoration:none;
+}
+.timetable-container { 
+    display: flex;  
+}
+/* tło drabinki  hsl(226, 77%, 71%); */
+.timetable-container .timetable-stops {
+    /*background-color: hsl(226, 77%, 71%);*/
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex; 
+	
+}
+.mm {
+    padding-left: 5px;
+}
+.timetable-bus-stop {
+    padding: 15px;
+    font-size: 15px;
+    color: #00508b;
+}
+
+.timetable-bus-stop span {
+    color: #333; 
+    font-size: 32px;
+    display: block;
+    font-weight: bold;
+    margin-left: -7px;
+}
+
+.przystanek a {
+    color: #00508b;
+}
+/* tło tabelki z rozkladami */
+.timetable {
+    /*background-color: hsl(69, 89%, 71%);*/
+    padding-right: 10px;
+    padding-left: 10px;
+    display: block;  			/*ZMIENIŁEM Z FLEX*/
+    border: 2px;
+    border-collapse: collapse;
+    border-color: black; 
+    width: 60%;
+}
+.przystanek {
+    padding-left: 8px;
+}
+.timetable #tab_roz_godz {
+    padding: 10;
+    border: 2px;
+    border-color: black;
+    border-collapse: collapse; 
+    width: 100%;
+}
+/* godziny rozkladowe  background-color: azure;*/
+.timetable .HH {
+    background-color: #f4f7ff;
+    width: 35px;
+    padding-left: 5px;
+    text-align: center;
+    padding-right: 5px;
+    border: 1px solid #000;
+}
+.srodek {
+    background-color: rgb(231, 237, 238);
+    border: 2px;
+    border-collapse: collapse;
+    border-color: black; 
+    padding: 10px;
+}
+.srodek .timetable-container .timetable {
+    background-color: blueviolet;
+}
+.srodek a {
+    padding: 20px;
+}
+.title {
+    font-size: 24px;
+}
+.linieBig opislinii {
+    font-size: 24px;
+}
+.przystanek a {
+    text-decoration:none;
+}
+.czas a {
+    padding: 10px;
+}
+span[title^='Nazwa linii'] {
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+.pt {
+    font-size: 22px;
+    padding: 5px;
+}
+.w {
+    font-size: 22px;
+    color: #00508b;
+    padding: 5px;
+}
+.gOpisPW {
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.change-direction .line-link {
+    padding-left: 10px;
+    display: none;
+    text-align: center;
+}
+.pole {
+    background-color: hsl(195, 32%, 93%);
+}
+.puste {
+    height: 30px;
+    width: 300px;
+    background-color: brown;
+}
+.okno .puste {
+    height: 30px;
+    width: 300px;
+    background-color: brown;
+}
+.grupa {
+    margin: 0 auto;
+}
+.dzien {
+    border: 1px solid black;
+    padding: 5px;   
+ }
+.mm {
+    border: 1px solid #000;
+}
+/*    hsl(226, 37%, 73%);*/
+.czas {
+    background-color: #f4f7ff;
+    padding-right: 5px;
+    text-align: center;
+    padding-left: 5px;
+    width: 40px;
+}
+div {
+    /*border: 1px solid #000;*/
+}
+.ramka {
+    background-color:white;
+    max-width: 900px;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+body {
+    background-color: #f9f9f9;
+ }
