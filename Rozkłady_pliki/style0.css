@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 :root {
-    --primary-color: #434343;
+    --primary-color: #1C4094;
     --light-color: #E6ECFA;
-    --dark-color: #0a0a0a;
+    --dark-color: #10235B;
 }
 
 * {
@@ -40,7 +40,7 @@ h1, h2, h3 {
 }
 
 img {
-    width: 2%;
+    width:3.5%;
 }
 
 /* HEADER */
