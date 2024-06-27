@@ -39,10 +39,6 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
-img {
-    width: 2%;
-}
-
 /* HEADER */
 header {
     background-image: linear-gradient(to right, #E6ECF9, #99A2B6);
@@ -396,7 +392,7 @@ footer .flex {
 }
 .grupa {
     padding-top: 10px;
-    width: 250px;
+    width: 300px;
     height: 40px;
     margin: 0 auto;
     font-size: 20px;
